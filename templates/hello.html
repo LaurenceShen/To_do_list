@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>This is a useless page~</h1>
+{% endblock %}
+
+{% block content %}
+    <h1>Hello, {{ g.user['username'] }}!</h1>
+    <h1>You have {{ n }} TODOs!</h1>
+{% endblock %}
